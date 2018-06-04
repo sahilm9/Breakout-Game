@@ -1,0 +1,33 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #aaa;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#Canvas{
+  background: #eee;
+  -webkit-box-flex: 480px;
+  -webkit-flex: 480px 0 0;
+     -moz-box-flex: 480px;
+      -ms-flex: 480px 0 0px;
+          flex: 480px 0 0;
+  height:320px;
+}

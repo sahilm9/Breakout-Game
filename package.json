@@ -1,0 +1,20 @@
+{
+  "name": "Breakout-Game",
+  "version": "1.0.0",
+  "description": "Interactive Breakout Game",
+  "main": "index.js",
+  "author": "Sahil Mokkapati",
+  "devDependencies": {
+    "autoprefixer": "^8.6.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-watch": "^5.0.0"
+  },
+  "dependencies": {
+    "webpack": "3.8.1"
+  }
+}

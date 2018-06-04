@@ -1,0 +1,15 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  display:flex;
+  flex-direction: row;
+  background-color: #aaa;
+  justify-content: center;
+}
+#Canvas{
+  background: #eee;
+  flex: 480px 0 0;
+  height:320px;
+}
