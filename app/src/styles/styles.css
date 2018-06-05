@@ -3,13 +3,10 @@
   margin:0;
 }
 body{
-  display:flex;
-  flex-direction: row;
-  background-color: #aaa;
-  justify-content: center;
+  background-color: #FBFCFC;
 }
 #Canvas{
-  background: #eee;
-  flex: 480px 0 0;
-  height:320px;
+  background-color: #eee;
+  display: block;
+  margin: 0 auto;
 }
