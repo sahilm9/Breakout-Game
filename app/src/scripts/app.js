@@ -1,4 +1,4 @@
-// Strong the reference of the canvas element in canvas variable
+// Storing the reference of the canvas element in canvas variable
 var canvas = document.getElementById('Canvas'),
 // a variable to store the 2D rendering context, the actual tool used to paint the canvas
 context = canvas.getContext('2d'),
