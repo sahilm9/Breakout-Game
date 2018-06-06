@@ -18,7 +18,7 @@ gulp.task('deleteDocsFolder', function(){
   return del("./docs");
 });
 
-gulp.task('usemin', ['deleteDocsFolder'], function(){
+gulp.task('usemin', ['deleteDocsFolder','styles','scripts'], function(){
   return gulp.src('./app/index.html')
   .pipe(usemin({
     css:[function(){return rev()},function(){ return cssNano()}],
